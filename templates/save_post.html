@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>heihei</div>
+<form id="save_post_form" method="post">
+    {% csrf_token %}
+    <input type="text" name="text1"/>
+
+    <p id="get_data">fffff</p>
+
+</form>
+<input type="submit" id="id_save_post" onclick="test()"/>
+<script>
+    function test(){
+        $("#get_data").html("qqqqq")
+    }
+    $(document).ready(function(){
+        $("#id_save_post").click(function(){
+            $("#get_data").text("qqqqq")
+        })
+    })
+</script>
+</body>
+
+</html>

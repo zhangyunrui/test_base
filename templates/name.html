@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{% for v in sorts_dicts.values %}
+    <div>{{ v.name }}</div>
+    {% for key, value in v.categories.items %}
+        <div style="background-color: {{ v.color }}">{{ key }}</div>
+        {% for val in value %}
+            <div>{{ val }}</div>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+</body>
+</html>

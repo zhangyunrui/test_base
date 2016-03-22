@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>heihei</div>
+{#<form id="save_post_form" role="form" method="post">#}
+<form id="save_post_form">
+{#    {% csrf_token %}#}
+    <input type="text" name="text1"/>
+    <input type="radio" name="radio1"/>
+    <input type="radio" name="radio1"/>
+
+    <p id="get_data">fffff</p>
+    {#    <button type="button" id="user_save" onclick="save_post()">#}
+    {#        保存#}
+    {#    </button>#}
+    <input type="submit" id="id_save_post"/>
+    {#    <input type="submit"/>#}
+</form>
+<script>
+    {#    function save_click() {#}
+    {#        $("#user_save").click(function () {#}
+    {#            save_post();#}
+    {#        });#}
+    {#    }#}
+    $("#id_save_post").click(function(){
+        $('#get_data').text('aaaaa')
+    })
+{#    $("#id_save_post").click(function(){#}
+{#        $.ajax({#}
+{#            type: 'POST',#}
+{#            url: 'submit',#}
+{#            data: $('#save_post_form').serialize(),#}
+{#            success: function (data) {#}
+{#                $('#get_data').html('asfdafs')#}
+{#            }#}
+{#        })#}
+{#    })#}
+{#    function save_post() {#}
+{#        $('#get_data').text('asfdafs');#}
+{#        $.ajax({#}
+{#            type: 'POST',#}
+{#            url: 'submit',#}
+            {#            url: '',#}
+{#            data: $('#save_post_form').serialize(),#}
+{#            async: true,#}
+{#            dataType: "json",#}
+{#            beforeSend: function (XMLHttpRequest) {#}
+{#                $("#get_data").text("保存中...").show(5000);#}
+{#            },#}
+{#            success: function (data) {#}
+{#                $('#get_data').html('asfdafs')#}
+{#            }#}
+{#        });#}
+{##}
+{##}
+{#        $.ajax({#}
+{#            type: "POST",#}
+{#            url: "/user/info/save/",#}
+{#            xhrFields: {#}
+{#                withCredentials: true#}
+{#            },#}
+{#            data: $('#user_info_save').serialize(),#}
+{#            async: true,#}
+{#            beforeSend: function (XMLHttpRequest) {#}
+{#                $("#msg").html("保存中...").show(500);#}
+{#            },#}
+{#            success: function (data) {#}
+{#                //var msg="";#}
+{#                //for (i in data)#}
+{#                //{#}
+{#                //    msg = data[i];#}
+{#                //    $("#id_"+i).focus();#}
+{#                //#}
+{#                //    $("#msg").removeClass("bg-warning").addClass("bg-danger").html(msg).show(500);#}
+{#                //    if(msg){#}
+{#                //        return false;#}
+{#                //    }else{#}
+{#                //        return true;#}
+{#                //    }#}
+{#                //}#}
+{#                if (data == "") {#}
+{#                    $("#msg").html("保存成功").removeClass('bg-warning').removeClass('bg-danger').addClass("bg-success").show().delay(3000).fadeOut();#}
+{#                }#}
+{#                else {#}
+{#                    layer.tips(data.status, "#id_nick_name", {tips: [2, '#68c8b6']});#}
+{#                    $("#id_nick_name").addClass("good").focus();#}
+{#                    var tt = $("#id_nick_name").offset().top - 80;#}
+{#                    $("html,body").stop().animate({"scrollTop": tt + "px"}, 500);#}
+{#                }#}
+{##}
+{#            }#}
+{#        });#}
+
+
+    }
+</script>
+</body>
+
+</html>
