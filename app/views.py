@@ -2,24 +2,12 @@
 import json
 from django.http.response import HttpResponse
 from django.shortcuts import render
-import operator
 
 
 def get_name(request):
+    test_name = None.split(',')
     links = {'Java': ['hhhhhh'], 'Python': ['hhhhhh'], '产品经理': ['hhhhhh'], 'drupal': [], '嵌入式': [], 'iOS': [],
-             '动画制作': ['hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh',
-                      'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh'], }
-
-    # sorts = {
-    #     '产品运营': {'index': '1', 'color': '#F193A2', 'categories': {'产品经理': ''}},
-    #     '设计': {'index': '2', 'color': '#F6A479', 'categories': {'UI 设计': '', '游戏原画': ''}},
-    #     '移动开发': {'index': '3', 'color': '#FFEA78', 'categories': {'Android': '', 'iOS': ''}},
-    #     '后台开发': {'index': '4', 'color': '#8DCEFB', 'categories': {'Python': '', 'PHP': '', 'Java': '', 'drupal': ''}},
-    #     '前端开发': {'index': '5', 'color': '#94AFF4', 'categories': {'Web前端': ''}},
-    #     '游戏开发': {'index': '6', 'color': '#B091E5', 'categories': {'Cocos2d': '', 'Unity 3D': '', '动画制作': ''}},
-    #     '底层开发': {'index': '7', 'color': '#91E5D5', 'categories': {'嵌入式': '', '物联网': ''}},
-    #     '软件测试': {'index': '8', 'color': '#A6E591', 'categories': {'软件测试': ''}},
-    # }
+             '动画制作': ['hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh', 'hhhhhh'], }
 
     sorts = {
         '1': {'name': '产品运营', 'color': '#F193A2', 'categories': {'产品经理': ''}},
@@ -50,11 +38,6 @@ def get_name(request):
         '15': '动画制作',
         '16': 'drupal'
     }
-    # for sort_k, sort_v in sorts.items():
-    #     categories = sort_v['categories']
-    #     for link_k, link_v in links.items():
-    #         if link_k in categories.keys():
-    #             sorts[sort_k]['categories'][link_k] = link_v
 
     sorts_dicts = {}
     for sort_k, sort_v in sorts.items():
@@ -65,7 +48,6 @@ def get_name(request):
         if links_dict:
             ele_dict = dict(name=sort_v['name'], color=sort_v['color'], categories=links_dict)
             sorts_dicts[sort_k] = ele_dict
-    # sorts_dicts = sorted(sorts_dicts.iteritems(), reverse=True)
 
     return render(request, 'name.html', locals())
 

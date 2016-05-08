@@ -1,0 +1,132 @@
+Internal Server Error: /form/
+None
+Internal Server Error: /form/
+None
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+begin-------------------------------------------------------------------------------------------------------------------
+Internal Server Error: /form/
+        
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+begin-------------------------------------------------------------------------------------------------------------------
+Internal Server Error: /form/
+        
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+begin-------------------------------------------------------------------------------------------------------------------
+time:               2016-05-08 22:21:45.409000Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+2016-05-08 22:24:03.443000----------------------------------------------------------------------------------------------
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+------------------------------------------------2016-05-08 22:25:10.866000----------------------------------------------
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+    --------------------------------------2016-05-08 22:27:57.762000--------------------------------------------------------
+    Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+LoggerMiddleware error
+
+--------------------------------------LoggerMiddleware error------------------------------------------------------------
+            
+
+--------------------------------------2016-05-08 22:31:52.268000--------------------------------------------------------
+            Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+--------------------------------------2016-05-08 22:32:16.078000--------------------------------------------------------
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+--------------------------------------2016-05-08 22:33:01.082000--------------------------------------------------------
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+--------------------------------------2016-05-08 22:33:02.334000--------------------------------------------------------
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+--------------------------------------2016-05-08 22:33:09.936000--------------------------------------------------------
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+--------------------------------------2016-05-08 22:34:41.312000--------------------------------------------------------
+Internal Server Error: /form/
+Traceback (most recent call last):
+  File "E:\workplace\ENV_DG_1.7\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:/git/test_base\app\views.py", line 8, in get_name
+    test_name = None.split(',')
+AttributeError: 'NoneType' object has no attribute 'split'
